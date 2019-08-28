@@ -4,7 +4,7 @@ interface Person {
   readonly id: string,
   firstName: string,
   lastName?: string,
-  [propName: string]: string | number
+  [propName: string]: any
 }
 
 let p: Person = {
@@ -13,6 +13,8 @@ let p: Person = {
   lastName: 'aa',
   age: 1
 }
+
+let a: String = '1212'
 
 let list: Array<number | string> = [211, '12321']
 let arr: (number | string)[] = [1, 2, 'dfs']
