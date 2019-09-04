@@ -1,1 +1,3 @@
-# ts-study
+# Algorithm-JS
+
+学习算法
